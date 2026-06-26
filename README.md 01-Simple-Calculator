@@ -3,27 +3,4 @@
 A basic iOS calculator app built using fundamental Swift and SwiftUI. This project was developed as part of my Month 1 milestone to master core programming concepts, basic user interface layouts, and state management in iOS development.
 
 ---
-
-## 📱 Previews
-Here is how the interactive interface looks running live:
-
-| Default State | Inputting Numbers |
-|---|---|
-| <img src="IMG_3147.PNG" width="250" alt="Calculator Default"> | <img src="IMG_3148.PNG" width="250" alt="Calculator with Input"> |
-
----
-
-## 🚀 Features & Logic Included
-This project focuses purely on beginner-level concepts and explicit layout code without using advanced structures or automation loops:
-* **Manual Layout Architecture:** Built entirely row-by-row using `HStack` and `VStack` components to completely form the button grid.
-* **Basic State Management:** Tracks values and operators using standard `@State` variables and simple boolean triggers (`isTyping`).
-* **Core Arithmetic Operations:** Handles basic addition, subtraction, multiplication, and division via straightforward `if/else` logic blocks.
-* **Input Features:** Supports a backspace/delete button (`⌫`), decimal input support, and integer clearing rules.
-
----
-
-## 🛠️ How to Run This Project
-1. Open **Swift Playgrounds** on your iPad or Mac (or open **Xcode**).
-2. Create a new App project.
-3. Replace the code inside your `ContentView.swift` file with the fundamental SwiftUI code from this repository.
-4. Click the Run button to test it instantly in the live interactive simulator pane.
+Exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version=exposdk%3A54.0.0&channel-name=production&snack=%40akonogo%2F23a9e8&snack-channel=aQyTNspAcW
