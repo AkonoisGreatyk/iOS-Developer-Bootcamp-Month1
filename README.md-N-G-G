@@ -1,0 +1,11 @@
+# Swift Random Number Guessing Game
+
+A lightweight, console-based guessing game built entirely with absolute core Swift fundamentals. It relies strictly on standard beginner logic—such as basic variable types, loops, and simple conditional structures—making it perfect for studying foundational code logic.
+
+## What it does
+This app sets up a command-line game sequence where the computer hides a secret number between 1 and 100, and the system evaluates user attempts. Instead of using advanced interactive input streams that can crash basic online sandboxes, it loops through a predefined array of numbers to demonstrate exactly how a system parses data, calculates boundary rules, tracks attempt counts, and delivers directional feedback.
+
+## How to use it
+1. Copy the game code from this repository and paste it into any Swift playground, Xcode project, or online compiler.
+2. Locate the `simulatedGuesses` array near the top of the file; these are the numbers the game will automatically test. Feel free to modify these integers to see how the feedback logic adapts.
+3. Run the code to watch the console process each guess step-by-step, showing whether the number is too high, too low, or an exact match.
