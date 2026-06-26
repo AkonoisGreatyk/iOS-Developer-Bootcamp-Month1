@@ -1,45 +1,28 @@
 import Foundation
 
-// --- APP LAYOUT DESIGN ---
-print("=====================================")
-print("        GUESSING GAME DASHBOARD      ")
-print("=====================================")
-print("Status: Target number has been hidden.")
-print("Goal: Enter values to isolate the index.\n")
+print("=== GUESSING GAME ===")
+print("I've picked a hidden number. Let's see if the simulation hits it.\n")
 
-// 1. Core State Variables (Basic Types)
-let hiddenTarget = Int.random(in: 1...100)
-var totalAttempts = 0
-var IsActiveRun = true
+let target = Int.random(in: 1...100)
+var attempts = 0
+var isRunning = true
 
-// 2. Simulated Sequence of User Inputs
-// To safely test logic without stream crashes, we pass guesses directly
-let simulatedGuesses = [45, 78, 52] 
+let guesses = [45, 78, 52]
 
-for currentGuess in simulatedGuesses {
-    if IsActiveRun == true {
-        totalAttempts = totalAttempts + 1
-        print("-> Action: Processing User Guess [ \(currentGuess) ]")
-        
-        // Explicit Boundary Checks (Fundamentals)
-        if currentGuess < hiddenTarget {
-            print("Feedback: Value is too low. Shift upward.")
-            print("-------------------------------------")
-        } else if currentGuess > hiddenTarget {
-            print("Feedback: Value is too high. Shift downward.")
-            print("-------------------------------------")
-        } else if currentGuess == hiddenTarget {
-            print("Feedback: Exact match detected!")
-            print("Result: Success reached in \(totalAttempts) iterations.")
-            IsActiveRun = false
-            print("=====================================")
-        }
+for guess in guesses where isRunning {
+    attempts += 1
+    print("-> Testing: \(guess)")
+    
+    if guess < target {
+        print("Too low!")
+    } else if guess > target {
+        print("Too high!")
+    } else {
+        print("\n🎉 Caught it! Found the match in \(attempts) tries.")
+        isRunning = false
     }
 }
 
-// Global state summary if final sequence isn't reached yet
-if IsActiveRun {
-    print("\nStatus: Simulation step complete.")
-    print("Metrics: Current total attempts stands at [ \(totalAttempts) ].")
-    print("=====================================")
+if isRunning {
+    print("\nSimulation ended. Checked \(attempts) values but didn't hit the target yet.")
 }
