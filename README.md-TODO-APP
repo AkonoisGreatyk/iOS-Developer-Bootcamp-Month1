@@ -1,0 +1,11 @@
+# Swift To-Do Manager Console
+
+A clean, text-based task tracking utility designed to manage basic daily tasks without complex databases or advanced frameworks. It focuses on clean layout structures and safe array boundaries.
+
+## What it does
+This utility uses a primitive string array to hold your tasks and features isolated functions to handle item creation and removal. The dashboard interface uses a clear loop to dynamically print your items in a neat, numbered list alongside standard empty brackets to mimic a classic checklist layout.
+
+## How to use it
+1. Paste the source code into your Swift environment to run the default simulation.
+2. To add a task manually in the code, call the `commitNewEntry(taskText: "Your Task")` function anywhere below the main list setup.
+3. To delete a task, call the `purgeEntry(displayLineNumber: X)` function, replacing `X` with the list number you want to remove. The console will automatically re-index and print the updated list layout.
