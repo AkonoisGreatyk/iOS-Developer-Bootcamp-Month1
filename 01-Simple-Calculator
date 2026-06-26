@@ -1,1 +1,207 @@
+import React, { useState } from 'react';
+import { StyleSheet, Text, View, TouchableOpacity, SafeAreaView } from 'react-native';
 
+export default function App() {
+  const [num, setNum] = useState('0');
+  const [savedNum, setSavedNum] = useState('');
+  const [action, setAction] = useState('');
+
+  // Pressing numbers
+  function pressNumber(digit) {
+    if (num === '0') {
+      setNum(String(digit));
+    } else {
+      setNum(num + digit);
+    }
+  }
+
+  // Pressing +, -, *, /
+  function pressOperator(op) {
+    setSavedNum(num);
+    setAction(op);
+    setNum('0');
+  }
+
+  // Backspace function
+  function pressDelete() {
+    if (num.length > 1) {
+      setNum(num.slice(0, -1));
+    } else {
+      setNum('0');
+    }
+  }
+
+  // Running the total math
+  function getResult() {
+    let first = parseFloat(savedNum);
+    let second = parseFloat(num);
+    let total = 0;
+
+    if (action === '+') {
+      total = first + second;
+    } else if (action === '-') {
+      total = first - second;
+    } else if (action === '*') {
+      total = first * second;
+    } else if (action === '/') {
+      if (second === 0) {
+        setNum('Error');
+        return;
+      }
+      total = first / second;
+    }
+
+    setNum(String(total));
+    setSavedNum('');
+    setAction('');
+  }
+
+  return (
+    <SafeAreaView style={styles.screen}>
+      {/* Display screen */}
+      <View style={styles.topDisplay}>
+        <Text style={styles.displayText}>{num}</Text>
+      </View>
+
+      {/* Grid of buttons using basic views */}
+      <View style={styles.keyboard}>
+        <View style={styles.row}>
+          <TouchableOpacity style={styles.grayButton} onPress={pressDelete}>
+            <Text style={styles.darkText}>⌫</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.grayButton} onPress={() => setNum(String(parseFloat(num) * -1))}>
+            <Text style={styles.darkText}>+/-</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.grayButton} onPress={() => setNum(String(parseFloat(num) / 100))}>
+            <Text style={styles.darkText}>%</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.orangeButton} onPress={() => pressOperator('/')}>
+            <Text style={styles.whiteText}>÷</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.row}>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(7)}>
+            <Text style={styles.whiteText}>7</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(8)}>
+            <Text style={styles.whiteText}>8</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(9)}>
+            <Text style={styles.whiteText}>9</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.orangeButton} onPress={() => pressOperator('*')}>
+            <Text style={styles.whiteText}>×</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.row}>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(4)}>
+            <Text style={styles.whiteText}>4</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(5)}>
+            <Text style={styles.whiteText}>5</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(6)}>
+            <Text style={styles.whiteText}>6</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.orangeButton} onPress={() => pressOperator('-')}>
+            <Text style={styles.whiteText}>-</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.row}>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(1)}>
+            <Text style={styles.whiteText}>1</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(2)}>
+            <Text style={styles.whiteText}>2</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(3)}>
+            <Text style={styles.whiteText}>3</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.orangeButton} onPress={() => pressOperator('+')}>
+            <Text style={styles.whiteText}>+</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.row}>
+          <View style={styles.blank} />
+          <TouchableOpacity style={styles.btn} onPress={() => pressNumber(0)}>
+            <Text style={styles.whiteText}>0</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.btn} onPress={() => { if (!num.includes('.')) setNum(num + '.'); }}>
+            <Text style={styles.whiteText}>.</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.orangeButton} onPress={getResult}>
+            <Text style={styles.whiteText}>=</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    backgroundColor: '#1c1c1e',
+    justifyContent: 'flex-end',
+  },
+  topDisplay: {
+    padding: 20,
+    alignItems: 'flex-end',
+  },
+  displayText: {
+    color: '#fff',
+    fontSize: 60,
+  },
+  keyboard: {
+    paddingBottom: 20,
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 10,
+    marginBottom: 10,
+  },
+  btn: {
+    backgroundColor: '#333333',
+    flex: 1,
+    height: 70,
+    borderRadius: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 5,
+  },
+  orangeButton: {
+    backgroundColor: '#ff9f0a',
+    flex: 1,
+    height: 70,
+    borderRadius: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 5,
+  },
+  grayButton: {
+    backgroundColor: '#a5a5a5',
+    flex: 1,
+    height: 70,
+    borderRadius: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 5,
+  },
+  blank: {
+    flex: 1,
+    marginHorizontal: 5,
+  },
+  whiteText: {
+    color: '#fff',
+    fontSize: 26,
+  },
+  darkText: {
+    color: '#000',
+    fontSize: 26,
+  },
+});
