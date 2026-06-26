@@ -1,1 +1,64 @@
+import Foundation
 
+// --- APP LAYOUT DESIGN ---
+print("=====================================")
+print("            TO-DO MANAGER            ")
+print("=====================================")
+
+// 1. Core State Array holding individual task strings
+var taskCollection: [String] = [
+    "Review Swift variables",
+    "Practice arrays and loops",
+    "Complete Unwrap quiz"
+]
+
+// 2. Clear Visual Render Function using a standard Loop
+func renderInterface() {
+    print("\n--- Live Interface Display ---")
+    if taskCollection.isEmpty == true {
+        print("  [ Empty View: No entries found ]")
+    } else {
+        var incrementalID = 1
+        for itemDescription in taskCollection {
+            print("  \(incrementalID). [ ] \(itemDescription)")
+            incrementalID = incrementalID + 1
+        }
+    }
+    print("------------------------------")
+}
+
+// 3. Fundamental Function to append entries
+func commitNewEntry(taskText: String) {
+    if taskText == "" {
+        print("Notice: Input string validation failed.")
+    } else {
+        taskCollection.append(taskText)
+        print("Action: Added item -> \"\(taskText)\"")
+    }
+}
+
+// 4. Fundamental Function to drop items using raw boundaries
+func purgeEntry(displayLineNumber: Int) {
+    let internalArrayIndex = displayLineNumber - 1
+    
+    // Safety verification check (Basic Arrays)
+    if internalArrayIndex >= 0 && internalArrayIndex < taskCollection.count {
+        let removedTask = taskCollection.remove(at: internalArrayIndex)
+        print("Action: Deleted item -> \"\(removedTask)\"")
+    } else {
+        print("Notice: Provided index is outside boundaries.")
+    }
+}
+
+// --- App Run Execution ---
+renderInterface()
+
+print("\nExecuting Modification:")
+commitNewEntry(taskText: "Build a guessing game layout")
+renderInterface()
+
+print("\nExecuting Deletion:")
+purgeEntry(displayLineNumber: 2)
+renderInterface()
+
+print("=====================================")
