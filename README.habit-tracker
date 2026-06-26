@@ -1,0 +1,11 @@
+# Swift Parallel-Array Habit Tracker
+
+A clean habit tracking board designed entirely using console text layout principles. This project showcases how to manage complex, multi-layered data tracking using only synchronized parallel arrays.
+
+## What it does
+To respect strict beginner rules without using advanced custom objects or classes, this app manages data tracks using three synchronized parallel arrays—one for the habit name, one for the current daily streak number, and one for the active completion status flag. It features safe evaluation logic that automatically increments or decrements your streaks based on your completion state without ever letting numbers drop below zero.
+
+## How to use it
+1. Run the code in your Swift compiler to view the preset dashboard layout, which showcases current streaks and progress markers.
+2. To simulate marking a habit as completed (or checking it off by accident), use the `shiftHabitStatus(lineNumber: X)` function. This flips the status flag and recalculates the streak metrics instantly.
+3. To completely drop a habit from the board, use `dropTrackedHabit(lineNumber: X)`. This purges the data fields across all parallel arrays simultaneously and prints the cleaned layout.
