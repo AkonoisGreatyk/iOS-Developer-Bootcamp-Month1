@@ -3,4 +3,32 @@
 A basic iOS calculator app built using fundamental Swift and SwiftUI. This project was developed as part of my Month 1 milestone to master core programming concepts, basic user interface layouts, and state management in iOS development.
 
 ---
-Exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version=exposdk%3A54.0.0&channel-name=production&snack=%40akonogo%2F23a9e8&snack-channel=aQyTNspAcW
+
+
+# Simple iOS Calculator
+
+This repository contains a basic iOS calculator app built using fundamental Swift and SwiftUI. The project focuses on core programming concepts, basic user interface layouts, and simple state management.
+
+## How to Run This Project
+
+To run this app and test it interactively, follow these steps:
+
+1. Open the Swift Playgrounds app on an iPad or Mac (or open Xcode on a Mac).
+2. Create a new App project.
+3. Open the ContentView.swift file.
+4. Replace all the default code inside ContentView.swift with the Swift code provided in this repository.
+5. Use the live preview panel on the right side of the screen to interact with the calculator buttons and test the math logic.
+
+## App Interface
+
+| Default Screen | Active Input |
+|---|---|
+| <img src="IMG_3147.PNG" width="250" alt="Calculator Default State"> | <img src="IMG_3148.PNG" width="250" alt="Calculator Active Math State"> |
+
+## Project Details
+
+The project is structured entirely around manual layout blocks and foundational logic structures:
+
+* Layout: Built using simple structural vertical and horizontal views (VStack and HStack) to define each row of buttons individually.
+* Logic: Uses basic conditional statements (if/else) to handle core math functions like addition, subtraction, multiplication, and division.
+* State: Utilizes standard state variables to keep track of the current number string on screen, the previously saved number, and the selected mathematical operation.
