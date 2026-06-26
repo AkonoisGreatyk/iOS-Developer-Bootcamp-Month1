@@ -1,1 +1,45 @@
+import Foundation
 
+// --- APP LAYOUT DESIGN ---
+print("=====================================")
+print("        GUESSING GAME DASHBOARD      ")
+print("=====================================")
+print("Status: Target number has been hidden.")
+print("Goal: Enter values to isolate the index.\n")
+
+// 1. Core State Variables (Basic Types)
+let hiddenTarget = Int.random(in: 1...100)
+var totalAttempts = 0
+var IsActiveRun = true
+
+// 2. Simulated Sequence of User Inputs
+// To safely test logic without stream crashes, we pass guesses directly
+let simulatedGuesses = [45, 78, 52] 
+
+for currentGuess in simulatedGuesses {
+    if IsActiveRun == true {
+        totalAttempts = totalAttempts + 1
+        print("-> Action: Processing User Guess [ \(currentGuess) ]")
+        
+        // Explicit Boundary Checks (Fundamentals)
+        if currentGuess < hiddenTarget {
+            print("Feedback: Value is too low. Shift upward.")
+            print("-------------------------------------")
+        } else if currentGuess > hiddenTarget {
+            print("Feedback: Value is too high. Shift downward.")
+            print("-------------------------------------")
+        } else if currentGuess == hiddenTarget {
+            print("Feedback: Exact match detected!")
+            print("Result: Success reached in \(totalAttempts) iterations.")
+            IsActiveRun = false
+            print("=====================================")
+        }
+    }
+}
+
+// Global state summary if final sequence isn't reached yet
+if IsActiveRun {
+    print("\nStatus: Simulation step complete.")
+    print("Metrics: Current total attempts stands at [ \(totalAttempts) ].")
+    print("=====================================")
+}
