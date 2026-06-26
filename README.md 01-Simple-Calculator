@@ -32,3 +32,4 @@ The project is structured entirely around manual layout blocks and foundational 
 * Layout: Built using simple structural vertical and horizontal views (VStack and HStack) to define each row of buttons individually.
 * Logic: Uses basic conditional statements (if/else) to handle core math functions like addition, subtraction, multiplication, and division.
 * State: Utilizes standard state variables to keep track of the current number string on screen, the previously saved number, and the selected mathematical operation.
+
