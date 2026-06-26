@@ -1,1 +1,78 @@
+import Foundation
 
+// --- APP LAYOUT DESIGN ---
+print("=====================================")
+print("            HABIT TRACKER            ")
+print("=====================================")
+
+// 1. Dual Arrays (Synchronized Fundamental Tracking)
+var activeHabitNames: [String] = ["Coding Practice", "Read a Book", "Workout Training"]
+var activeHabitStreaks: [Int] = [5, 2, 0]
+var activeHabitStatuses: [Bool] = [true, false, false]
+
+// 2. Clean Interface Render Loop
+func printHabitDashboard() {
+    print("\n--- Current Habits Panel ---")
+    
+    if activeHabitNames.isEmpty {
+        print("  No metrics recorded.")
+    } else {
+        var loopPointer = 0
+        while loopPointer < activeHabitNames.count {
+            // Check status flag to select layout markings
+            let markSymbol = activeHabitStatuses[loopPointer] ? "[Done]" : "[Mark]"
+            let progressIndicator = "🔥 \(activeHabitStreaks[loopPointer]) day streak"
+            
+            print("  \(loopPointer + 1). \(markSymbol) \(activeHabitNames[loopPointer]) -> \(progressIndicator)")
+            loopPointer = loopPointer + 1
+        }
+    }
+    print("----------------------------")
+}
+
+// 3. Fundamental Toggling Logic 
+func shiftHabitStatus(lineNumber: Int) {
+    let indexTarget = lineNumber - 1
+    
+    if indexTarget >= 0 && indexTarget < activeHabitNames.count {
+        if activeHabitStatuses[indexTarget] == false {
+            // Flip true and increment tracking number
+            activeHabitStatuses[indexTarget] = true
+            activeHabitStreaks[indexTarget] = activeHabitStreaks[indexTarget] + 1
+            print("Update: \(activeHabitNames[indexTarget]) committed for today.")
+        } else {
+            // Reverse state and safety decrement number without dropping past zero
+            activeHabitStatuses[indexTarget] = false
+            if activeHabitStreaks[indexTarget] > 0 {
+                activeHabitStreaks[indexTarget] = activeHabitStreaks[indexTarget] - 1
+            }
+            print("Update: \(activeHabitNames[indexTarget]) marked outstanding.")
+        }
+    } else {
+        print("Notice: Boundary selection invalid.")
+    }
+}
+
+// 4. Fundamental Function to clean out values
+func dropTrackedHabit(lineNumber: Int) {
+    let indexTarget = lineNumber - 1
+    if indexTarget >= 0 && indexTarget < activeHabitNames.count {
+        print("Action: Purged \(activeHabitNames[indexTarget]) data tracks.")
+        activeHabitNames.remove(at: indexTarget)
+        activeHabitStreaks.remove(at: indexTarget)
+        activeHabitStatuses.remove(at: indexTarget)
+    }
+}
+
+// --- App Run Execution ---
+printHabitDashboard()
+
+print("\nSimulating Interaction (Toggling Item #2):")
+shiftHabitStatus(lineNumber: 2)
+printHabitDashboard()
+
+print("\nSimulating Deletion (Dropping Item #1):")
+dropTrackedHabit(lineNumber: 1)
+printHabitDashboard()
+
+print("=====================================")
