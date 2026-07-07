@@ -23,8 +23,8 @@ Junior Developer focused on native mobile development and programmatic logic wit
 
 ## Certifications
 
-*   **AI Python Course Certificate** – Coursera  
-    Completed foundational training covering core programmatic logic, data handling structures, and Python scripting principles.
+* **AI Python Course Certificate** – Coursera[cite: 1] 
+    Completed foundational training covering core programmatic logic, data handling structures, and Python scripting principles[cite: 1].
 
 ---
 
@@ -32,47 +32,47 @@ Junior Developer focused on native mobile development and programmatic logic wit
 
 ### Featured iOS Applications
 
-*   **Habit Tracker**  
+* **Habit Tracker**  
     A clean, minimal productivity utility designed for tracking personal dynamic goals[cite: 1]. Built using standard SwiftUI layout components and simple input processing for seamless text-entry data management[cite: 1].
     <details>
-      <summary>📱 View App Demo</summary>
+      <summary>📸 View App Screenshot</summary>
       <br>
-      <video src="habit-tracker-demo.mp4" width="250" controls loop muted></video>
+      <img src="habit-tracker.png" width="250" alt="Habit Tracker Interface">
     </details>
     
-*   **Guessing Game**  
+* **Guessing Game**  
     An interactive logic-based mobile game where users guess a randomly generated number between 1 and 100[cite: 1]. Implements real-time conditional state feedback ("Too high", "Too low", "Correct") and tracks user attempt iterations dynamically[cite: 1].
     <details>
-      <summary>📱 View App Demo</summary>
+      <summary>📸 View App Screenshot</summary>
       <br>
-      <video src="guessing-game-demo.mp4" width="250" controls loop muted></video>
+      <img src="guessing-game.png" width="250" alt="Guessing Game Interface">
     </details>
 
-*   **iOS Calculator Clone**  
+* **iOS Calculator Clone**  
     A pixel-perfect UI reproduction of the native iOS Calculator layout[cite: 1]. Focuses heavily on grid structures, custom button sizing, uniform aspect ratios, and input parsing constraints for simple algebraic executions[cite: 1].
     <details>
-      <summary>📱 View App Demo</summary>
+      <summary>📸 View App Screenshot</summary>
       <br>
-      <video src="calculator-demo.mp4" width="250" controls loop muted></video>
+      <img src="calculator.png" width="250" alt="Calculator Interface">
     </details>
 
-*   **Movie Collection Tracker**  
+* **Movie Collection Tracker**  
     A cataloging application that allows users to add titles alongside specific genres to a dynamic on-screen tracking matrix[cite: 1]. Features localized programmatic data handling, listing components, and an explicit deletion interface[cite: 1].
     <details>
-      <summary>📱 View App Demo</summary>
+      <summary>📸 View App Screenshot</summary>
       <br>
-      <video src="movie-tracker-demo.mp4" width="250" controls loop muted></video>
+      <img src="movie-tracker.png" width="250" alt="Movie Tracker Interface">
     </details>
 
 ### Python & Game Programming
 
-*   **Ping Pong Game**  
+* **Ping Pong Game**  
     A two-player execution built in Python utilizing the turtle graphics library[cite: 1]. Features real-time paddle control inputs, geometric collision detection physics, scoring logic tracking, and a programmatic automated opponent state for single-player execution[cite: 1].
 
-*   **Snakes and Ladders**  
+* **Snakes and Ladders**  
     A digital translation of the classic board game engineered in Python[cite: 1]. Features algorithmic dice-roll mechanics, coordinate-based tile movement logic, and automatic board element transposition matrixes[cite: 1].
 
-*   **Strategy Games Bundle (Tic-Tac-Toe & Chess)**  
+* **Strategy Games Bundle (Tic-Tac-Toe & Chess)**  
     Object-oriented Python architectures implementing robust turn-based state machines[cite: 1]. Includes a text-based grid implementation of Tic-Tac-Toe featuring an algorithmic heuristic decision-making computer opponent, alongside a modular rule-validation logic set for a streamlined chess board variant[cite: 1].
 
 ---
