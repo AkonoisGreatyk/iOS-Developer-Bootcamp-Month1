@@ -7,13 +7,8 @@ Junior Developer focused on native mobile development and programmatic logic wit
 ## Technical Skills
 
 ### Languages & Frameworks
-- **Languages:** Swift, Python, SQL
+- **Languages:** Swift, Python,
 - **UI Frameworks:** SwiftUI, UIKit foundations
-- **Core Concepts:** Object-Oriented Programming (OOP), MVC/MVVM architecture patterns, RESTful APIs
-
-### AI & Automation
-- **Foundations:** Artificial Intelligence, Generative AI principles, Prompt Engineering
-- **Data & Tools:** Data analysis foundations, Automation scripting, Jupyter Notebooks
 
 ### Ecosystem & Tools
 - **IDE & Version Control:** Xcode, Git, GitHub
@@ -65,18 +60,6 @@ Junior Developer focused on native mobile development and programmatic logic wit
       <br>
       <img src="PASTE_URL_HERE" width="220">
     </details>
-
-### Python & Game Programming
-
-* **Ping Pong Game**  
-    A two-player execution built in Python utilizing the turtle graphics library[cite: 1]. Features real-time paddle control inputs, geometric collision detection physics, scoring logic tracking, and a programmatic automated opponent state for single-player execution[cite: 1].
-
-* **Snakes and Ladders**  
-    A digital translation of the classic board game engineered in Python[cite: 1]. Features algorithmic dice-roll mechanics, coordinate-based tile movement logic, and automatic board element transposition matrixes[cite: 1].
-
-* **Strategy Games Bundle (Tic-Tac-Toe & Chess)**  
-    Object-oriented Python architectures implementing robust turn-based state machines[cite: 1]. Includes a text-based grid implementation of Tic-Tac-Toe featuring an algorithmic heuristic decision-making computer opponent, alongside a modular rule-validation logic set for a streamlined chess board variant[cite: 1].
-
 ---
 
 ## GitHub Performance
