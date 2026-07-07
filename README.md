@@ -1,4 +1,4 @@
-# Akram Lagnina
+# Akono
 
 Junior iOS Developer focused on building clean, efficient, and well-structured mobile applications within the Apple ecosystem. Combining a strong technical foundation in Swift and SwiftUI with a keen eye for UI/UX visual design.
 
@@ -20,7 +20,19 @@ Junior iOS Developer focused on building clean, efficient, and well-structured m
 
 ## Projects & Portfolio
 
-*   **iOS Portfolio Applications:** Currently developing a curated selection of functional, native iOS applications utilizing SwiftUI and local data persistence to showcase clean code architecture.
+### Featured iOS Applications
+
+*   **Habit Tracker**  
+    A clean, minimal productivity utility designed for tracking personal dynamic goals. Built using standard SwiftUI layout components and simple input processing for seamless text-entry data management.
+    
+*   **Guessing Game**  
+    An interactive logic-based mobile game where users guess a randomly generated number between 1 and 100. Implements real-time conditional state feedback ("Too high", "Too low", "Correct") and tracks user attempt iterations dynamically.
+
+*   **iOS Calculator Clone**  
+    A pixel-perfect UI reproduction of the native iOS Calculator layout. Focuses heavily on grid structures, custom button sizing, uniform aspect ratios, and input parsing constraints for simple algebraic executions.
+
+*   **Movie Collection Tracker**  
+    A cataloging application that allows users to add titles alongside specific genres to a dynamic on-screen tracking matrix. Features localized programmatic data handling, listing components, and an explicit deletion interface.
 
 ---
 
@@ -33,5 +45,5 @@ Junior iOS Developer focused on building clean, efficient, and well-structured m
 ---
 
 ## Contact & Links
+- **Email:** akramlagnina@gmail.com
 - **GitHub:** [github.com/[YOUR-USERNAME]](https://github.com/[YOUR-USERNAME])
-- **Email:** [Your Professional Email]
