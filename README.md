@@ -1,5 +1,4 @@
-# Dynamic header banner that works automatically
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Akono&fontSize=70&fontAlignY=40&theme=dark)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0d1117,1e3a8a&height=200&section=header&text=Akono&fontSize=70&fontAlignY=40&theme=dark)
 
 Junior Developer focused on native mobile development and programmatic logic within the Apple ecosystem. Combining a strong technical foundation in Swift, SwiftUI, and Python with an interest in AI implementations and structured UI/UX design.
 
@@ -8,7 +7,7 @@ Junior Developer focused on native mobile development and programmatic logic wit
 ## Technical Skills
 
 ### Languages & Frameworks
-- **Languages:** Swift, Python
+- **Languages:** Swift, Python, SQL
 - **UI Frameworks:** SwiftUI, UIKit foundations
 - **Core Concepts:** Object-Oriented Programming (OOP), MVC/MVVM architecture patterns, RESTful APIs
 
