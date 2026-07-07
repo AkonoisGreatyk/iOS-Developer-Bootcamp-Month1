@@ -38,18 +38,6 @@ Junior Developer focused on native mobile development and programmatic logic wit
 
 *   **Movie Collection Tracker**  
     A cataloging application that allows users to add titles alongside specific genres to a dynamic on-screen tracking matrix. Features localized programmatic data handling, listing components, and an explicit deletion interface.
-
-### Python & Game Programming
-
-*   **Ping Pong Game**  
-    A two-player execution built in Python utilizing the turtle graphics library[cite: 1]. Features real-time paddle control inputs, geometric collision detection physics, scoring logic tracking, and a programmatic automated opponent state for single-player execution[cite: 1].
-
-*   **Snakes and Ladders**  
-    A digital translation of the classic board game engineered in Python[cite: 1]. Features algorithmic dice-roll mechanics, coordinate-based tile movement logic, and automatic board element transposition matrixes[cite: 1].
-
-*   **Strategy Games Bundle (Tic-Tac-Toe & Chess)**  
-    Object-oriented Python architectures implementing robust turn-based state machines[cite: 1]. Includes a text-based grid implementation of Tic-Tac-Toe featuring an algorithmic heuristic decision-making computer opponent, alongside a modular rule-validation logic set for a streamlined chess board variant[cite: 1].
-
 ---
 
 ## GitHub Performance
