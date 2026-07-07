@@ -7,13 +7,8 @@ Junior Developer focused on native mobile development and programmatic logic wit
 ## Technical Skills
 
 ### Languages & Frameworks
-- **Languages:** Swift, Python, SQL
+- **Languages:** Swift, Python,
 - **UI Frameworks:** SwiftUI, UIKit foundations
-- **Core Concepts:** Object-Oriented Programming (OOP), MVC/MVVM architecture patterns, RESTful APIs
-
-### AI & Automation
-- **Foundations:** Artificial Intelligence, Generative AI principles, Prompt Engineering
-- **Data & Tools:** Data analysis foundations, Automation scripting, Jupyter Notebooks
 
 ### Ecosystem & Tools
 - **IDE & Version Control:** Xcode, Git, GitHub
@@ -67,4 +62,4 @@ Junior Developer focused on native mobile development and programmatic logic wit
 
 ## Contact & Links
 - **Email:** akramlagnina@gmail.com[cite: 1]
-- **GitHub:** [github.com/[YOUR-USERNAME]](https://github.com/[YOUR-USERNAME])
+- **GitHub:** [github.com/AkonoisGreatyk(https://github.com/AkonoisGreatyk)
