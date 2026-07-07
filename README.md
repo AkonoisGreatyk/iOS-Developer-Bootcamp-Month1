@@ -1,20 +1,30 @@
 # Akono
 
-Junior iOS Developer focused on building clean, efficient, and well-structured mobile applications within the Apple ecosystem. Combining a strong technical foundation in Swift and SwiftUI with a keen eye for UI/UX visual design.
+Junior Developer focused on native mobile development and programmatic logic within the Apple ecosystem. Combining a strong technical foundation in Swift, SwiftUI, and Python with an interest in AI implementations and structured UI/UX design.
 
 ---
 
 ## Technical Skills
 
 ### Languages & Frameworks
-- **Languages:** Swift, Python
-- **UI Frameworks:** SwiftUI, UIKit foundation
-- **Core Concepts:** Object-Oriented Programming, MVC/MVVM architecture patterns
+- **Languages:** Swift, Python, SQL
+- **UI Frameworks:** SwiftUI, UIKit foundations
+- **Core Concepts:** Object-Oriented Programming (OOP), MVC/MVVM architecture patterns, RESTful APIs
 
-### Tools & Ecosystem
-- **IDE:** Xcode
-- **Version Control:** Git, GitHub
-- **Design & Prototyping:** Digital illustration tools, UI layout foundations
+### AI & Automation
+- **Foundations:** Artificial Intelligence, Generative AI principles, Prompt Engineering
+- **Data & Tools:** Data analysis foundations, Automation scripting, Jupyter Notebooks
+
+### Ecosystem & Tools
+- **IDE & Version Control:** Xcode, Git, GitHub
+- **Design & Prototyping:** Digital illustration tools, visual interface layouts
+
+---
+
+## Certifications
+
+*   **AI Python Course Certificate** – Coursera  
+    Completed foundational training covering core programmatic logic, data handling structures, and Python scripting principles.
 
 ---
 
@@ -34,6 +44,17 @@ Junior iOS Developer focused on building clean, efficient, and well-structured m
 *   **Movie Collection Tracker**  
     A cataloging application that allows users to add titles alongside specific genres to a dynamic on-screen tracking matrix. Features localized programmatic data handling, listing components, and an explicit deletion interface.
 
+### Python & Game Programming
+
+*   **Ping Pong Game**  
+    A two-player execution built in Python utilizing the turtle graphics library. Features real-time paddle control inputs, geometric collision detection physics, scoring logic tracking, and a programmatic automated opponent state for single-player execution[cite: 1].
+
+*   **Snakes and Ladders**  
+    A digital translation of the classic board game engineered in Python. Features algorithmic dice-roll mechanics, coordinate-based tile movement logic, and automatic board element transposition matrixes[cite: 1].
+
+*   **Strategy Games Bundle (Tic-Tac-Toe & Chess)**  
+    Object-oriented Python architectures implementing robust turn-based state machines. Includes a text-based grid implementation of Tic-Tac-Toe featuring an algorithmic heuristic decision-making computer opponent, alongside a modular rule-validation logic set for a streamlined chess board variant[cite: 1].
+
 ---
 
 ## GitHub Performance
@@ -45,5 +66,5 @@ Junior iOS Developer focused on building clean, efficient, and well-structured m
 ---
 
 ## Contact & Links
-- **Email:** akramlagnina@gmail.com
+- **Email:** akramlagnina@gmail.com[cite: 1]
 - **GitHub:** [github.com/[YOUR-USERNAME]](https://github.com/[YOUR-USERNAME])
