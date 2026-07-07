@@ -1,13 +1,37 @@
-# iOS-Developer-Bootcamp-Month1-Swifty
-iOS Developer Bootcamp Month1 That's will start everything it hold some of my first every projects I ever made simple but for me they hold a special place for me.
+# Akram Lagnina
 
-# 📱 Month 1 iOS Developer Bootcamp Projects
-My personal implementation of the Week 1-4 app challenges.
+Junior iOS Developer focused on building clean, efficient, and well-structured mobile applications within the Apple ecosystem. Combining a strong technical foundation in Swift and SwiftUI with a keen eye for UI/UX visual design.
 
-## 🚀 Projects Included:
-1. Simple Calculator- A functional layout built to process logic inputs.
-2. Grade  ##########
-3. Number Guessing Game - An interactive program tracking state variable logic.
-4. Movie Collection Tracker - Managing data structures dynamically.
-5. Console Todo App -  Tracks and reminds of Things you need to do
-6. Habit Tracker - Watches and cures your database or state memory and dynamically displays all your active habits
+---
+
+## Technical Skills
+
+### Languages & Frameworks
+- **Languages:** Swift, Python
+- **UI Frameworks:** SwiftUI, UIKit foundation
+- **Core Concepts:** Object-Oriented Programming, MVC/MVVM architecture patterns
+
+### Tools & Ecosystem
+- **IDE:** Xcode
+- **Version Control:** Git, GitHub
+- **Design & Prototyping:** Digital illustration tools, UI layout foundations
+
+---
+
+## Projects & Portfolio
+
+*   **iOS Portfolio Applications:** Currently developing a curated selection of functional, native iOS applications utilizing SwiftUI and local data persistence to showcase clean code architecture.
+
+---
+
+## GitHub Performance
+
+<!-- Replace [YOUR-USERNAME] with your actual GitHub username below -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=[YOUR-USERNAME]&show_icons=true&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR-USERNAME]&layout=compact&theme=dark&hide_border=true)
+
+---
+
+## Contact & Links
+- **GitHub:** [github.com/[YOUR-USERNAME]](https://github.com/[YOUR-USERNAME])
+- **Email:** [Your Professional Email]
