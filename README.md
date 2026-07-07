@@ -1,4 +1,5 @@
-# Akono
+# Dynamic header banner that works automatically
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Akono&fontSize=70&fontAlignY=40&theme=dark)
 
 Junior Developer focused on native mobile development and programmatic logic within the Apple ecosystem. Combining a strong technical foundation in Swift, SwiftUI, and Python with an interest in AI implementations and structured UI/UX design.
 
@@ -7,7 +8,7 @@ Junior Developer focused on native mobile development and programmatic logic wit
 ## Technical Skills
 
 ### Languages & Frameworks
-- **Languages:** Swift, Python, SQL
+- **Languages:** Swift, Python
 - **UI Frameworks:** SwiftUI, UIKit foundations
 - **Core Concepts:** Object-Oriented Programming (OOP), MVC/MVVM architecture patterns, RESTful APIs
 
@@ -47,13 +48,13 @@ Junior Developer focused on native mobile development and programmatic logic wit
 ### Python & Game Programming
 
 *   **Ping Pong Game**  
-    A two-player execution built in Python utilizing the turtle graphics library. Features real-time paddle control inputs, geometric collision detection physics, scoring logic tracking, and a programmatic automated opponent state for single-player execution[cite: 1].
+    A two-player execution built in Python utilizing the turtle graphics library[cite: 1]. Features real-time paddle control inputs, geometric collision detection physics, scoring logic tracking, and a programmatic automated opponent state for single-player execution[cite: 1].
 
 *   **Snakes and Ladders**  
-    A digital translation of the classic board game engineered in Python. Features algorithmic dice-roll mechanics, coordinate-based tile movement logic, and automatic board element transposition matrixes[cite: 1].
+    A digital translation of the classic board game engineered in Python[cite: 1]. Features algorithmic dice-roll mechanics, coordinate-based tile movement logic, and automatic board element transposition matrixes[cite: 1].
 
 *   **Strategy Games Bundle (Tic-Tac-Toe & Chess)**  
-    Object-oriented Python architectures implementing robust turn-based state machines. Includes a text-based grid implementation of Tic-Tac-Toe featuring an algorithmic heuristic decision-making computer opponent, alongside a modular rule-validation logic set for a streamlined chess board variant[cite: 1].
+    Object-oriented Python architectures implementing robust turn-based state machines[cite: 1]. Includes a text-based grid implementation of Tic-Tac-Toe featuring an algorithmic heuristic decision-making computer opponent, alongside a modular rule-validation logic set for a streamlined chess board variant[cite: 1].
 
 ---
 
