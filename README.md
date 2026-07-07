@@ -54,9 +54,9 @@ Junior Developer focused on native mobile development and programmatic logic wit
 
 ## GitHub Performance
 
-<!-- Replace [YOUR-USERNAME] with your actual GitHub username below -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=[YOUR-USERNAME]&show_icons=true&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR-USERNAME]&layout=compact&theme=dark&hide_border=true)
+<!-- Replace [AkonoisGreatyk] with your actual GitHub username below -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AkonoisGreatyk&show_icons=true&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YAkonoisGreatyk&layout=compact&theme=dark&hide_border=true)
 
 ---
 
