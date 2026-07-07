@@ -23,7 +23,7 @@ Junior Developer focused on native mobile development and programmatic logic wit
 
 ## Certifications
 
-* **AI Python Course Certificate** – Coursera[cite: 1] 
+* **AI Python Course Certificate** – Coursera[cite: 1]  
     Completed foundational training covering core programmatic logic, data handling structures, and Python scripting principles[cite: 1].
 
 ---
@@ -32,36 +32,48 @@ Junior Developer focused on native mobile development and programmatic logic wit
 
 ### Featured iOS Applications
 
-* **Habit Tracker**  
-    A clean, minimal productivity utility designed for tracking personal dynamic goals[cite: 1]. Built using standard SwiftUI layout components and simple input processing for seamless text-entry data management[cite: 1].
-    <details>
-      <summary>📸 View App Screenshot</summary>
-      <br>
-      <img src="habit-tracker.png" width="250" alt="Habit Tracker Interface">
-    </details>
-    
-* **Guessing Game**  
-    An interactive logic-based mobile game where users guess a randomly generated number between 1 and 100[cite: 1]. Implements real-time conditional state feedback ("Too high", "Too low", "Correct") and tracks user attempt iterations dynamically[cite: 1].
-    <details>
-      <summary>📸 View App Screenshot</summary>
-      <br>
-      <img src="guessing-game.png" width="250" alt="Guessing Game Interface">
-    </details>
-
 * **iOS Calculator Clone**  
     A pixel-perfect UI reproduction of the native iOS Calculator layout[cite: 1]. Focuses heavily on grid structures, custom button sizing, uniform aspect ratios, and input parsing constraints for simple algebraic executions[cite: 1].
     <details>
-      <summary>📸 View App Screenshot</summary>
+      <summary>📸 View Calculator Interface</summary>
       <br>
-      <img src="calculator.png" width="250" alt="Calculator Interface">
+      <p align="left">
+        <!-- DRAG AND DROP THE CALCULATOR SCREENSHOT DIRECTLY BELOW THIS LINE -->
+        
+      </p>
+    </details>
+
+* **Guessing Game**  
+    An interactive logic-based mobile game where users guess a randomly generated number between 1 and 100[cite: 1]. Implements real-time conditional state feedback ("Too high", "Too low", "Correct") and tracks user attempt iterations dynamically[cite: 1].
+    <details>
+      <summary>📸 View Guessing Game Interface</summary>
+      <br>
+      <p align="left">
+        <!-- DRAG AND DROP YOUR GUESSING GAME SCREENSHOTS DIRECTLY BELOW THIS LINE -->
+        
+      </p>
+    </details>
+
+* **Habit Tracker**  
+    A clean, minimal productivity utility designed for tracking personal dynamic goals[cite: 1]. Built using standard SwiftUI layout components and simple input processing for seamless text-entry data management[cite: 1].
+    <details>
+      <summary>📸 View Habit Tracker Interface</summary>
+      <br>
+      <p align="left">
+        <!-- DRAG AND DROP THE HABIT TRACKER SCREENSHOT DIRECTLY BELOW THIS LINE -->
+        
+      </p>
     </details>
 
 * **Movie Collection Tracker**  
     A cataloging application that allows users to add titles alongside specific genres to a dynamic on-screen tracking matrix[cite: 1]. Features localized programmatic data handling, listing components, and an explicit deletion interface[cite: 1].
     <details>
-      <summary>📸 View App Screenshot</summary>
+      <summary>📸 View Movie Collection Interface</summary>
       <br>
-      <img src="movie-tracker.png" width="250" alt="Movie Tracker Interface">
+      <p align="left">
+        <!-- DRAG AND DROP THE MOVIE TRACKER SCREENSHOT DIRECTLY BELOW THIS LINE -->
+        
+      </p>
     </details>
 
 ### Python & Game Programming
