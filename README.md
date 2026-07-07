@@ -37,10 +37,7 @@ Junior Developer focused on native mobile development and programmatic logic wit
     <details>
       <summary>📸 View Calculator Interface</summary>
       <br>
-      <p align="left">
-        <!-- DRAG AND DROP THE CALCULATOR SCREENSHOT DIRECTLY BELOW THIS LINE -->
-        
-      </p>
+      <img src="PASTE_URL_HERE" width="220">
     </details>
 
 * **Guessing Game**  
@@ -48,10 +45,9 @@ Junior Developer focused on native mobile development and programmatic logic wit
     <details>
       <summary>📸 View Guessing Game Interface</summary>
       <br>
-      <p align="left">
-        <!-- DRAG AND DROP YOUR GUESSING GAME SCREENSHOTS DIRECTLY BELOW THIS LINE -->
-        
-      </p>
+      <img src="PASTE_URL_1_HERE" width="220">
+      <img src="PASTE_URL_2_HERE" width="220">
+      <img src="PASTE_URL_3_HERE" width="220">
     </details>
 
 * **Habit Tracker**  
@@ -59,10 +55,7 @@ Junior Developer focused on native mobile development and programmatic logic wit
     <details>
       <summary>📸 View Habit Tracker Interface</summary>
       <br>
-      <p align="left">
-        <!-- DRAG AND DROP THE HABIT TRACKER SCREENSHOT DIRECTLY BELOW THIS LINE -->
-        
-      </p>
+      <img src="PASTE_URL_HERE" width="220">
     </details>
 
 * **Movie Collection Tracker**  
@@ -70,10 +63,7 @@ Junior Developer focused on native mobile development and programmatic logic wit
     <details>
       <summary>📸 View Movie Collection Interface</summary>
       <br>
-      <p align="left">
-        <!-- DRAG AND DROP THE MOVIE TRACKER SCREENSHOT DIRECTLY BELOW THIS LINE -->
-        
-      </p>
+      <img src="PASTE_URL_HERE" width="220">
     </details>
 
 ### Python & Game Programming
