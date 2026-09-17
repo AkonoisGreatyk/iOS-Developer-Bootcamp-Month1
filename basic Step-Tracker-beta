@@ -1,0 +1,13 @@
+import CoreMotion
+
+let pedometer = CMPedometer()
+
+if CMPedometer.isStepCountingAvailable() {
+    let startOfDay = Calendar.current.startOfDay(for: Date())
+    
+    pedometer.startUpdates(from: startOfDay) { data, error in
+        if let steps = data?.numberOfSteps {
+            print("Steps today: \(steps)")
+        }
+    }
+}
